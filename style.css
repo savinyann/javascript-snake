@@ -1,0 +1,19 @@
+html, body { height: 100%; width: 100%; overflow: hidden; }
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #222;
+    flex-direction: column;
+}
+
+canvas
+{
+    border: 1px solid red
+}
+
+button#stop
+{
+    margin: 2rem;
+}
